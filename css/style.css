@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?i6ajci');
+  src:  url('../fonts/icomoon.eot?i6ajci#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?i6ajci') format('truetype'),
+    url('../fonts/icomoon.woff?i6ajci') format('woff'),
+    url('../fonts/icomoon.svg?i6ajci#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down:before {
+  content: "\e908";
+}
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-odnoklassniki:before {
+  content: "\e902";
+}
+.icon-Vector:before {
+  content: "\e903";
+}
+.icon-clock:before {
+  content: "\e904";
+}
+.icon-map:before {
+  content: "\e905";
+}
+.icon-massege:before {
+  content: "\e906";
+}
+.icon-phone:before {
+  content: "\e907";
+}
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans 700'), local('Museo-Sans-700'),
+      url('../MuseoSansCyrl-700.woff2') format('woff2'),
+      url('../MuseoSansCyrl-700.woff') format('woff'),
+      url('../MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans 500'), local('Museo-Sans-500'),
+      url('../MuseoSansCyrl-500.woff2') format('woff2'),
+      url('../MuseoSansCyrl-500.woff') format('woff'),
+      url('../MuseoSansCyrl-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans 300'), local('Museo-Sans-300'),
+      url('../MuseoSansCyrl-300.woff2') format('woff2'),
+      url('../MuseoSansCyrl-300.woff') format('woff'),
+      url('../MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
